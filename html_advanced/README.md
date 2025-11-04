@@ -1,5 +1,5 @@
-# A repo for learning about html
+# A repo for learning about HTML
 
-- balise
+- tag
 - header
 - content
