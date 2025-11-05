@@ -35,7 +35,7 @@
 	--nav-item-font-size: var(--font-size-medium);
 	--nav-item-letter-spacing: 4%;
 	--nav-item-display: inline-block;
-	--nav-item-margin: 0 0 3rem 0;
+	--nav-item-margin: 0 0 0 3rem;
 	--nav-item-link-hover: var(--color-primary);
 }
 
@@ -125,7 +125,7 @@ a:link {
 }
 
 .footer {
-	padding: var(--footer-paddding);
+	padding: var(--footer-padding);
 }
 
 .navbar-menu {
@@ -150,11 +150,12 @@ a:link {
 	font-weight: var(--nav-item-font-weight);
 	font-size: var(--nav-item-font-size);
 	letter-spacing: var(--nav-item-letter-spacing);
+	display: var(--nav-item-display);
 	margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
-	display: var(--nav-item-display);
+	display: block;
 	padding: 0.5rem 1rem;
 }
 
