@@ -40,7 +40,9 @@
 	--section-tagline-margin: 0;
 }
 
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
@@ -133,7 +135,7 @@ a:active {
 }
 
 .footer {
-	padding: var(--footer-paddding);
+	padding: var(--footer-padding);
 }
 
 .navbar-menu {
