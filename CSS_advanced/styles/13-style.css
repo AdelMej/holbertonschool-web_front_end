@@ -23,16 +23,16 @@ a[href] {
 	text-decoration: none;
 }
 
-a[href]:visited {
+a:visited {
 	font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
 	text-decoration: underline;
 }
 
-a[href]:link {
-	color: var(--color-light-grey);
+a:link {
+	background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
