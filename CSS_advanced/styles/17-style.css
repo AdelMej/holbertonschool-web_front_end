@@ -7,7 +7,7 @@
 	--color-white: #ffffff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
-	--text-color: color-black;
+	--text-color: var(--color-black);
 	--font-family-base: 'Open Sans', helvetica neue, helvetica, arial, sans-serif;
 	--font-family-title: 'Raleway', helvetica neue, helvetica, arial, sans-serif;
 	--font-size-small: 1.2rem;
@@ -26,10 +26,10 @@
 	--section-title-color: var(--color-black);
 	--section-padding: 5rem 0;
 	--section-header-padding: 0 0 3rem;
-	--section-body-padding: 3rem 0 0;
+	--section-body-padding: 0 0 3rem;
 	--section-footer-padding: 3rem 0 0;
 	--section-footer-align: center;
-	--footer-paddding: 5rem 0 1rem;
+	--footer-padding: 5rem 0 1rem;
 }
 
 * {
@@ -49,7 +49,12 @@ body {
 	line-height: var(--line-height-base);
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
@@ -107,7 +112,7 @@ a:link {
 
 .section-tagline {
 	color: var(--color-primary);
-	font-family: var(--section-tagline-transform);
+	text-transform: var(--section-tagline-transform);
 	font-weight: var(--font-weight-bold);
 }
 
