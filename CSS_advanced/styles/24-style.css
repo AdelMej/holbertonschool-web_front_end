@@ -4,10 +4,10 @@
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
-	--color-white: #ffffff;
+	--color-white: #fff;
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
-	--text-color: color-black;
+	--text-color: var(--color-black);
 	--font-family-base: 'Open Sans', helvetica neue, helvetica, arial, sans-serif;
 	--font-family-title: 'Raleway', helvetica neue, helvetica, arial, sans-serif;
 	--font-size-small: 1.2rem;
@@ -57,13 +57,18 @@ body {
 	line-height: var(--line-height-base);
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
 
 a[href] {
-	color: #161616;
+	color: var(--text-color);
 	text-decoration: none;
 }
 
